@@ -8,6 +8,7 @@
 
 #include "ContentScene.h"
 #include "ExamplesMenuLayer.h"
+#include "CutTheRopeScene.h"
 
 struct DEMO
 {
@@ -15,7 +16,8 @@ struct DEMO
     std::function<Scene*()> callback;
 }demos[] =
 {
-    { "01 test01", [](){ return ExamplesMenuLayer::createScene(); } },
+    { "01 RUBE_TEST", [](){ return ExamplesMenuLayer::createScene(); } },
+    { "02 CutTheRope", [](){ return CutTheRopeScene::createScene(); } },
 };
 
 Scene* ContentScene::createScene()

@@ -195,6 +195,12 @@
 		891DAE371910BEEF009017C5 /* uicontrols.json in Resources */ = {isa = PBXBuildFile; fileRef = 891DADD21910BEEE009017C5 /* uicontrols.json */; };
 		891DAE381910BEEF009017C5 /* uicontrols.rube in Resources */ = {isa = PBXBuildFile; fileRef = 891DADD31910BEEF009017C5 /* uicontrols.rube */; };
 		891DAE391910BEEF009017C5 /* uicontrols.rube in Resources */ = {isa = PBXBuildFile; fileRef = 891DADD31910BEEF009017C5 /* uicontrols.rube */; };
+		891DAE3C1913598B009017C5 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DAE3A1913598B009017C5 /* GLES-Render.cpp */; };
+		891DAE3D1913598B009017C5 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DAE3A1913598B009017C5 /* GLES-Render.cpp */; };
+		891DAE4219135A73009017C5 /* CutTheRopeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DAE4019135A73009017C5 /* CutTheRopeScene.cpp */; };
+		891DAE4319135A73009017C5 /* CutTheRopeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DAE4019135A73009017C5 /* CutTheRopeScene.cpp */; };
+		891DAE461913B5BA009017C5 /* TestNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DAE441913B5BA009017C5 /* TestNode.cpp */; };
+		891DAE471913B5BA009017C5 /* TestNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DAE441913B5BA009017C5 /* TestNode.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -476,6 +482,12 @@
 		891DADD11910BEEE009017C5 /* pickupstar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pickupstar.wav; sourceTree = "<group>"; };
 		891DADD21910BEEE009017C5 /* uicontrols.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uicontrols.json; sourceTree = "<group>"; };
 		891DADD31910BEEF009017C5 /* uicontrols.rube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uicontrols.rube; sourceTree = "<group>"; };
+		891DAE3A1913598B009017C5 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "GLES-Render.cpp"; path = "../Classes/GLES-Render.cpp"; sourceTree = "<group>"; };
+		891DAE3B1913598B009017C5 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "../Classes/GLES-Render.h"; sourceTree = "<group>"; };
+		891DAE4019135A73009017C5 /* CutTheRopeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CutTheRopeScene.cpp; sourceTree = "<group>"; };
+		891DAE4119135A73009017C5 /* CutTheRopeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutTheRopeScene.h; sourceTree = "<group>"; };
+		891DAE441913B5BA009017C5 /* TestNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestNode.cpp; sourceTree = "<group>"; };
+		891DAE451913B5BA009017C5 /* TestNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNode.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -551,9 +563,12 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				891DAE3E19135A3A009017C5 /* CutTheRope */,
 				891DAD651910BEE8009017C5 /* RUBE */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
+				891DAE3A1913598B009017C5 /* GLES-Render.cpp */,
+				891DAE3B1913598B009017C5 /* GLES-Render.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
 				891DAD581910B964009017C5 /* ContentScene.cpp */,
@@ -673,6 +688,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				891DAE3F19135A42009017C5 /* CutTheRope */,
 				891DAD9E1910BEEE009017C5 /* RUBE */,
 				891DAD5F1910BC5E009017C5 /* scrollItemBgNormal.png */,
 				891DAD601910BC5E009017C5 /* scrollItemBgSelected.png */,
@@ -808,6 +824,25 @@
 				891DADD11910BEEE009017C5 /* pickupstar.wav */,
 			);
 			path = sounds;
+			sourceTree = "<group>";
+		};
+		891DAE3E19135A3A009017C5 /* CutTheRope */ = {
+			isa = PBXGroup;
+			children = (
+				891DAE4019135A73009017C5 /* CutTheRopeScene.cpp */,
+				891DAE4119135A73009017C5 /* CutTheRopeScene.h */,
+				891DAE441913B5BA009017C5 /* TestNode.cpp */,
+				891DAE451913B5BA009017C5 /* TestNode.h */,
+			);
+			name = CutTheRope;
+			path = ../Classes/CutTheRope;
+			sourceTree = "<group>";
+		};
+		891DAE3F19135A42009017C5 /* CutTheRope */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CutTheRope;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1120,8 +1155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891DAE3C1913598B009017C5 /* GLES-Render.cpp in Sources */,
 				891DAD8A1910BEE8009017C5 /* DestroyBodyLayer.cpp in Sources */,
 				891DAD8C1910BEE8009017C5 /* ExamplesMenuLayer.cpp in Sources */,
+				891DAE4219135A73009017C5 /* CutTheRopeScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				891DAD901910BEE8009017C5 /* PinballRUBELayer.cpp in Sources */,
 				891DAD981910BEE8009017C5 /* b2dJsonImage.cpp in Sources */,
@@ -1137,6 +1174,7 @@
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				891DAD941910BEE8009017C5 /* RUBELayer.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				891DAE461913B5BA009017C5 /* TestNode.cpp in Sources */,
 				891DAD961910BEE8009017C5 /* b2dJson.cpp in Sources */,
 				891DAD861910BEE8009017C5 /* Box2DDebugDraw.cpp in Sources */,
 			);
@@ -1149,15 +1187,18 @@
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				891DAD871910BEE8009017C5 /* Box2DDebugDraw.cpp in Sources */,
 				891DAD8B1910BEE8009017C5 /* DestroyBodyLayer.cpp in Sources */,
+				891DAE471913B5BA009017C5 /* TestNode.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
 				891DAD931910BEE8009017C5 /* PlanetCuteRUBELayer.cpp in Sources */,
 				891DAD951910BEE8009017C5 /* RUBELayer.cpp in Sources */,
+				891DAE3D1913598B009017C5 /* GLES-Render.cpp in Sources */,
 				891DAD971910BEE8009017C5 /* b2dJson.cpp in Sources */,
 				891DAD9D1910BEE8009017C5 /* UIControlsRUBELayer.cpp in Sources */,
 				891DAD891910BEE8009017C5 /* ButtonRUBELayer.cpp in Sources */,
 				891DAD911910BEE8009017C5 /* PinballRUBELayer.cpp in Sources */,
 				891DAD9B1910BEE8009017C5 /* jsoncpp.cpp in Sources */,
 				891DAD5B1910B964009017C5 /* ContentScene.cpp in Sources */,
+				891DAE4319135A73009017C5 /* CutTheRopeScene.cpp in Sources */,
 				891DAD991910BEE8009017C5 /* b2dJsonImage.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				891DAD8D1910BEE8009017C5 /* ExamplesMenuLayer.cpp in Sources */,

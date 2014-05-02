@@ -1,1 +1,4 @@
 Resources/RUBE/images.rube-backups/
+*.xcuserstate
+xcuserdata/
+Thumbs.db
